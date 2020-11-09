@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: scs
+  create: documents
+  match: "**/*.md"
 - type: heading
   label: nadpis
 - type: directory
