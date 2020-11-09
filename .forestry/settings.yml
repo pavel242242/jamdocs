@@ -5,10 +5,10 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: docs
   label: scs
-  create: documents
-  match: "**/*.md"
+  create: all
+  match: "**/*"
 - type: heading
   label: nadpis
 - type: directory
