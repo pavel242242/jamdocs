@@ -17,7 +17,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: mujprvni.md
+  path: src/mujprvni.md
   label: mujprvni
 upload_dir: uploads
 public_path: "/uploads"
